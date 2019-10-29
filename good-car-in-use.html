@@ -1,34 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Security Guide</title>
+<title>Security Guide - Good car in use</title>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 * {
   box-sizing: border-box;
 }
 
-/* Style the body */
+a:visited {
+  color: #fcba03;
+}
+
 body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
 }
 
-/* Header/logo Title */
 .header {
   padding: 80px;
   text-align: center;
-  background: #1abc9c;
-  color: white;
+  background: #fcba03;
+  color: black;
 }
 
-/* Increase the font size of the heading */
 .header h1 {
   font-size: 40px;
 }
 
-/* Sticky navbar - toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed). The sticky value is not supported in IE or Edge 15 and earlier versions. However, for these versions the navbar will inherit default position */
 .navbar {
   overflow: hidden;
   background-color: #333;
@@ -37,7 +36,6 @@ body {
   top: 0;
 }
 
-/* Style the navigation bar links */
 .navbar a {
   float: left;
   display: block;
@@ -47,15 +45,12 @@ body {
   text-decoration: none;
 }
 
-
-/* Right-aligned link */
 .navbar a.right {
   float: right;
 }
 
-/* Change color on hover */
 .navbar a:hover {
-  background-color: #ddd;
+  background-color: #fcba03;
   color: black;
 }
 
@@ -65,7 +60,6 @@ body {
   color: white;
 }
 
-/* Column container */
 .row {  
   display: -ms-flexbox; /* IE10 */
   display: flex;
@@ -73,16 +67,6 @@ body {
   flex-wrap: wrap;
 }
 
-/* Create two unequal columns that sits next to each other */
-/* Sidebar/left column */
-.side {
-  -ms-flex: 30%; /* IE10 */
-  flex: 30%;
-  background-color: #f1f1f1;
-  padding: 20px;
-}
-
-/* Main column */
 .main {   
   -ms-flex: 70%; /* IE10 */
   flex: 70%;
@@ -90,28 +74,18 @@ body {
   padding: 20px;
 }
 
-/* Fake image, just for this example */
-.fakeimg {
-  background-color: #aaa;
-  width: 100%;
-  padding: 20px;
-}
-
-/* Footer */
 .footer {
   padding: 20px;
   text-align: center;
   background: #ddd;
 }
 
-/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 700px) {
   .row {   
     flex-direction: column;
   }
 }
 
-/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
 @media screen and (max-width: 400px) {
   .navbar a {
     float: none;
@@ -124,11 +98,11 @@ body {
 
 <div class="header">
   <h1>Security Guide</h1>
-  <p>The <b>security guide</b> for a cleaning company.</p>
+  <p>Good car in use.</p>
 </div>
 
 <div class="navbar">
-  <a href="./index.html" class="active">Home</a>
+  <a href="./index.html">Home</a>
   <a href="./visitors-through-the-company.html">Visitors through the company</a>
   <a href="./handling-the-keys.html">Handling the keys</a>
   <a href="./internet-access.html">Internet access</a>
@@ -136,14 +110,14 @@ body {
   <a href="./sg-for-clothes-and-shoes.html">Security guide for clothes and shoes</a>
   <a href="./work-insurance.html">Work insurance</a>
   <a href="./handling-data.html">Handling the customer’s, employee’s and company’s data</a>
-  <a href="./good-car-in-use.html">Good car in use</a>
+  <a href="./good-car-in-use.html" class="active">Good car in use</a>
   <a href="./worker-movement.html">Worker physical movement</a>
   <a href="./contact.html" class="right">Contact</a>
 </div>
 
 <div class="row">
   <div class="main">
-    <h2>VISITORS THROUGH THE COMPANY</h2>
+    <h2>GOOD CAR IN USE</h2>
 	
     </div>
 </div>
